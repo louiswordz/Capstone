@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    font-size: 18px;
+}
+.Gen{
+    margin: 0;
+    padding: 0;
+}
+.Gen .hd{
+    background-color: aliceblue;
+    z-index: -1;
+}
+.hd h1{
+    position: relative;
+    float: left;
+    left: 50px;
+    top: 5vh;
+}
+
+.hd h1 #sep{
+    color: blueviolet;
+}
+.hd #sep2{
+    color: #8a2c8a;
+}
+.hd .inp{
+    position: relative;
+    right: 40px;
+    float: right;
+    top: 5vh;
+    border-radius: 15px;
+    border-width: 10px;
+    text-indent: 4px;
+}
+.hd::after{
+    display: table;
+    content: " ";
+    clear: both;
+}
+.hd .nav{
+    position: relative;
+    top: 10vh;
+    left: 300px;
+
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #999;
+    font-size: 600;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul li a:hover{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a:visited{
+    color: #8a2c8a;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav ul li a:active{
+    color: #888;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hd hr{
+    width: 200%;
+    position: relative;
+    top: 40px;
+    margin-top: 20px;
+}
+.Gen main{
+    position: relative;
+    top: 12vh;
+    margin: 20px auto; 
+}

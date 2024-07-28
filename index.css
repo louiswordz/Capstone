@@ -1,0 +1,112 @@
+main article{
+    margin-left: 20px;
+}
+main article h1{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: #B7B6C1;
+    text-decoration-color: #94958b;
+}
+main article h2{
+    margin-top: 20px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+main article p{
+    text-indent: 20px;
+    margin-top: 10px;
+}
+
+/* About */
+main form{
+    width: 30%;
+    margin: 10px auto;
+    margin-top: 40px;
+}
+
+main form fieldset{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    height: 200px;
+    border-radius: 12px;
+}
+main form fieldset #text1, #text2, #check{
+    text-align: left;
+    margin-left: 3px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+main form fieldset #lb{
+    margin-right: 180px;
+    margin-bottom: 4px;
+    position: relative;
+    left: 10px;
+}
+main form fieldset #check{
+    margin-right: 30px;
+    position: relative;
+    right: 120px;
+    top: 1vh;
+}
+main form fieldset input[type="button"]{
+    margin-top: 30px;
+    width: 80px;
+    padding: 3px;
+    cursor: pointer;
+}
+main form fieldset input[type="button"]:hover{
+    background-color: #94958b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#fff;
+    border-radius: 10px;
+}
+main form fieldset input[type="button"]:active{
+    background-color: #B7B6C1;
+    font-family: 'Times New Roman', Times, serif;
+    color: #94958b;
+    border-radius: 10px;
+}
+
+/* Info */
+main #art section {
+    text-align: center;
+    margin-top: 50px;
+}
+main #art section ul{
+    list-style: none;
+    text-align: left;
+    margin-left: 440px;
+}
+main #art section ul li{
+    margin-top: 10px;
+}
+
+main #art section ul a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #1200f0;
+}
+
+main #art section ul a:hover{
+    color: #94958b;
+}
+
+main #art section ul a:active{
+    color: red;
+}
+main #art section ul a:visited{
+    color: #f2ffd2;
+}
+
+/* contact */
+main figure{
+    margin-top: 30px;
+}
+main figure img{
+    width: 200px;
+    height: 200px;
+}
